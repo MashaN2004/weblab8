@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+.item {
+    display: flex;
+}
+
+.item input {
+    padding: 0 2px;
+    width: 200px;
+}
+
+.item button {
+    width: 25px;
+    padding: 3px;
+}
+
+.actions button {
+    padding: 2px;
+    display: block;
+}
+
+.text {
+    font-size: 20px;
+    font-family: monospace;
+    letter-spacing: 2px;
+}
